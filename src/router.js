@@ -1,15 +1,22 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
-
+import RecipeList from "./views/RecipeList.vue";
+import RecipeSingle from "./components/RecipeSingle.vue";
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home
+      name: "recipe-list",
+      component: RecipeList
+    },
+    {
+      path: "/recipe/:id",
+      name: "recipe",
+      component: RecipeSingle,
+      props: true
     },
     {
       path: "/about",
