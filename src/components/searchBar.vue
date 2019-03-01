@@ -1,5 +1,11 @@
 <template>
-  <input type="text" v-model="search" @keyup="submitSearch" placeholder="search">
+  <input
+    v-if="showSearchBar"
+    type="text"
+    v-model="search"
+    @keyup="submitSearch"
+    placeholder="search"
+  >
 </template>
 
 <script>
@@ -11,7 +17,8 @@ export default {
   data() {
     return {
       search: "",
-      recipes: []
+      recipes: [],
+      showSearchBar: true
     };
   },
 
@@ -29,9 +36,17 @@ export default {
       console.log("searchbar: " + this.search);
       bus.$emit("submitSearch", this.search);
     }
+  },
+  watch: {
+    $route: function() {
+      this.showSearchBar = this.$route.path === "/" ? true : false;
+    }
   }
 };
 </script>
 
 <style scoped>
+input {
+  padding: 10px;
+}
 </style>

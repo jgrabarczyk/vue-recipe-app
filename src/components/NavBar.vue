@@ -26,12 +26,14 @@ export default {
 
 <style scoped>
 .nav {
-  padding: 2rem;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-image: linear-gradient(hsl(120, 65%, 35%), hsl(120, 65%, 75%));
   margin-bottom: 2rem;
+  align-items: center;
+  min-height: 5rem;
 }
 a {
   color: #fff;
