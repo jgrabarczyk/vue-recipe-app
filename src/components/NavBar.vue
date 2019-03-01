@@ -1,5 +1,5 @@
 <template>
-  <div id="nav" class="nav">
+  <div id="nav" class="nav -shadow">
     <router-link to="/" class="brand">{{title}}</router-link>
     <searchBar/>
 
