@@ -1,5 +1,10 @@
 <template>
-  <div id="nav" class="nav -shadow">
+  <div
+    id="nav"
+    class="nav -shadow"
+    v-bind:class="{floating : isTopFlag}"
+    v-on:scroll="handleScroll"
+  >
     <router-link to="/" class="brand">{{title}}</router-link>
     <searchBar/>
 
@@ -18,10 +23,31 @@ export default {
   },
   data() {
     return {
-      title: "Recipe App"
+      title: "Recipe App",
+      isTopFlag: true
     };
+  },
+
+  methods: {
+    handleScroll(event) {
+      let isScrolledTop = window.scrollY == 0 ? true : false;
+      if (isScrolledTop && this.isTopFlag == true) {
+        this.isTopFlag = false;
+      }
+
+      if (!isScrolledTop && this.isTopFlag == false) {
+        this.isTopFlag = true;
+      }
+    }
+  },
+  created() {
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
   }
 };
+//
 </script>
 
 <style scoped>
@@ -34,6 +60,23 @@ export default {
   margin-bottom: 2rem;
   align-items: center;
   min-height: 5rem;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  margin-top: -1rem;
+  transition: 0.5s ease-in-out;
+  top: 1rem;
+}
+.nav.floating {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  min-height: 3rem;
+}
+input {
+  transition: 0.5s ease-in-out;
+}
+.nav.floating input {
+  padding: 5px 10px;
 }
 a {
   color: #fff;

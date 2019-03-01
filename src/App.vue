@@ -20,6 +20,7 @@ export default {
    v2.0 | 20110126
    License: none (public domain)
 */
+
 :root {
   --transiton-txt: 0.3s ease-in-out;
 }
@@ -177,6 +178,9 @@ a:hover {
 }
 .-shadow {
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
+}
+body {
+  margin-top: 7rem;
 }
 </style>
 
