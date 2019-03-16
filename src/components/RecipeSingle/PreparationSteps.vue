@@ -2,7 +2,7 @@
   <div class="steps">
     <h2 class="rs__content--title">Steps:</h2>
     <ol class="rs__list steps">
-      <li class="rs__list--item" v-for="single in prepSteps" v-bind:key="single">
+      <li class="rs__list--item" v-for="(single, index) in prepSteps" v-bind:key="index">
         <h3>{{single.step.title}}</h3>
         <p>{{single.step.caption}}</p>
       </li>

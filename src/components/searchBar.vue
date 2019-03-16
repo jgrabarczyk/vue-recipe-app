@@ -10,7 +10,6 @@
 
 <script>
 import { bus } from "../main";
-import RecipeService from "@/services/RecipeService.js";
 export default {
   components: {},
 
@@ -22,15 +21,6 @@ export default {
     };
   },
 
-  created() {
-    RecipeService.getRecipes()
-      .then(response => {
-        this.recipes = response.data;
-      })
-      .catch(error => {
-        console.log("There was an error:", error.response);
-      });
-  },
   methods: {
     submitSearch() {
       console.log("searchbar: " + this.search);

@@ -15,5 +15,6 @@ export default {
   },
   getRecipe(id) {
     return apiClient.get("/recipes/" + id);
-  }
+  },
+ 
 };

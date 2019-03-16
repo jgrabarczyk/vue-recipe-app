@@ -18,20 +18,9 @@ export default {
   data() {
     return {
       recipes: [],
-      search: ""
+      search: "",
+      selectedCat: ""
     };
-  },
-  created() {
-    RecipeService.getRecipes()
-      .then(response => {
-        this.recipes = response.data;
-      })
-      .catch(error => {
-        console.log("There was an error:", error.response);
-      });
-    bus.$on("submitSearch", data => {
-      this.search = data;
-    });
   },
   methods: {
     filterList(q, list) {
@@ -62,9 +51,38 @@ export default {
       });
     }
   },
+  created() {
+    RecipeService.getRecipes()
+      .then(response => {
+        this.recipes = response.data;
+      })
+      .catch(error => {
+        console.log("There was an error:", error.response);
+      });
+    bus.$on("submitSearch", data => {
+      this.search = data;
+    });
+    bus.$on("submitCategories", data => {
+      this.selectedCat = data;
+    });
+  },
+
   computed: {
     filterRecipes() {
-      return this.filterList(this.search, this.recipes);
+      let category, filteredRecipes;
+      category = this.selectedCat;
+
+      filteredRecipes =
+        this.search == ""
+          ? this.recipes
+          : this.filterList(this.search, this.recipes);
+
+      filteredRecipes =
+        this.selectedCat == ""
+          ? filteredRecipes
+          : filteredRecipes.filter(recipe => recipe.cat == category);
+
+      return filteredRecipes;
     }
   }
 };

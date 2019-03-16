@@ -7,7 +7,7 @@
   >
     <router-link to="/" class="brand">{{title}}</router-link>
     <searchBar/>
-
+    <categoryBar/>
     <nav>
       <router-link :to="{ name: 'recipe-list' }">Home</router-link>
       <router-link :to="{ name: 'about' }">About</router-link>
@@ -17,9 +17,11 @@
 
 <script>
 import searchBar from "@/components/searchBar.vue";
+import categoryBar from '@/components/CategoryBar.vue';
 export default {
   components: {
-    searchBar
+    searchBar,
+    categoryBar
   },
   data() {
     return {
