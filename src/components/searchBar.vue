@@ -1,6 +1,6 @@
 <template>
   <input
-    v-if="showSearchBar"
+    v-if="showBar"
     type="text"
     v-model="search"
     @keyup="submitSearch"
@@ -11,25 +11,24 @@
 <script>
 import { bus } from "../main";
 export default {
-  components: {},
 
   data() {
     return {
       search: "",
       recipes: [],
-      showSearchBar: true
+      showBar: true
     };
   },
 
   methods: {
     submitSearch() {
-      console.log("searchbar: " + this.search);
       bus.$emit("submitSearch", this.search);
     }
   },
+  
   watch: {
     $route: function() {
-      this.showSearchBar = this.$route.path === "/" ? true : false;
+      this.showBar = this.$route.path === "/" ? true : false;
     }
   }
 };

@@ -6,10 +6,33 @@
 </template>
 <script>
 import NavBar from "@/components/NavBar.vue";
+import RecipeService from "@/services/RecipeService.js";
 
 export default {
   components: {
     NavBar
+  },
+  data() {
+    return {
+      recipes: [],
+      categories: []
+    };
+  },
+  created() {
+    RecipeService.getRecipes()
+      .then(response => {
+        this.recipes = response.data;
+        localStorage.setItem("recipes", JSON.stringify(this.recipes));
+      })
+      .then(response => {
+        this.categories = this.recipes.map(element => {
+          return element.cat;
+        });
+        localStorage.setItem("categories", JSON.stringify(this.categories));
+      })
+      .catch(error => {
+        console.log("(RecipeService) There was an error:", error.response);
+      });
   }
 };
 </script>
@@ -17,9 +40,9 @@ export default {
 
 <style>
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+    v2.0 | 20110126
+    License: none (public domain)
+  */
 
 :root {
   --transiton-txt: 0.3s ease-in-out;
@@ -140,9 +163,9 @@ body {
   box-sizing: border-box; /* Opera/IE 8+ */
 }
 /* ol,
-ul {
-  list-style: none;
-} */
+  ul {
+    list-style: none;
+  } */
 blockquote,
 q {
   quotes: none;

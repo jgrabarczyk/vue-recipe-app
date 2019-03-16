@@ -10,7 +10,7 @@
 <script>
 import { bus } from "../main";
 import RecipeBox from "@/components/RecipeBox.vue";
-import RecipeService from "@/services/RecipeService.js";
+// import RecipeService from "@/services/RecipeService.js";
 export default {
   components: {
     RecipeBox
@@ -52,13 +52,6 @@ export default {
     }
   },
   created() {
-    RecipeService.getRecipes()
-      .then(response => {
-        this.recipes = response.data;
-      })
-      .catch(error => {
-        console.log("There was an error:", error.response);
-      });
     bus.$on("submitSearch", data => {
       this.search = data;
     });
@@ -66,7 +59,11 @@ export default {
       this.selectedCat = data;
     });
   },
-
+  mounted() {
+    this.recipes = JSON.parse(localStorage.getItem('recipes'));
+    this.categories = JSON.parse(localStorage.getItem('categories'));
+  },
+  
   computed: {
     filterRecipes() {
       let category, filteredRecipes;

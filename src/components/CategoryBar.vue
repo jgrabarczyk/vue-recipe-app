@@ -1,48 +1,37 @@
 <template>
   <div>
-    <select v-model="selectedCat" v-on:change="submtiCategories">
-      <option v-for="(cat, index) in categories" :key="index">{{cat}}</option>      
+    <select v-if="showBar" v-model="selectedCat" v-on:change="submtiCategories">
+      <option></option>
+      <option v-for="(cat, index) in categories" :key="index">{{cat}}</option>
     </select>
   </div>
 </template>
 
 <script>
 import { bus } from "../main";
-import RecipeService from "@/services/RecipeService.js";
 export default {
   data() {
     return {
-      recipes: [],
       categories: [],
-      selectedCat: ''
-    }
+      selectedCat: "",
+      showBar: true
+    };
   },
+
   methods: {
-    submtiCategories(e) {                          
-      console.log(this.selectedCat);
+    submtiCategories() {
       bus.$emit("submitCategories", this.selectedCat);
     }
   },
-  created() {
-    RecipeService.getRecipes()
-      .then(response => {
-        this.recipes = response.data;
-      })  
-      .then(response =>{
-        this.categories = this.recipes.map(element =>{
-          return element.cat;
-        });
-        this.categories.unshift('');
-      })
-      .catch(error => {
-        console.log("There was an error:", error.response);
-      });
+  mounted() {
+    this.categories = JSON.parse(localStorage.getItem('categories'));
+    console.log('categoires');
+    console.log(this.categories);
   },
-
-}
+  watch: {
+    $route: function() {
+      this.showBar = this.$route.path === "/" ? true : false;
+    }
+  }
+};
 </script>
-  
-
-<style>
-
-</style>
