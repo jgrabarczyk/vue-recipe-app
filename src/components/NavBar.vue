@@ -8,6 +8,7 @@
     <router-link to="/" class="brand">{{title}}</router-link>
     <searchBar/>
     <categoryBar/>
+    <ingridientsBar/>
     <nav>
       <router-link :to="{ name: 'recipe-list' }">Home</router-link>
       <router-link :to="{ name: 'about' }">About</router-link>
@@ -18,10 +19,12 @@
 <script>
 import searchBar from "@/components/searchBar.vue";
 import categoryBar from '@/components/CategoryBar.vue';
+import ingridientsBar from '@/components/IngridientsBar.vue';
 export default {
   components: {
     searchBar,
-    categoryBar
+    categoryBar,
+    ingridientsBar
   },
   data() {
     return {

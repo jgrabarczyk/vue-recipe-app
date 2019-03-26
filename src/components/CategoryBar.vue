@@ -10,6 +10,7 @@
 <script>
 import { bus } from "../main";
 export default {
+  
   data() {
     return {
       categories: [],
@@ -23,11 +24,11 @@ export default {
       bus.$emit("submitCategories", this.selectedCat);
     }
   },
+
   mounted() {
-    this.categories = JSON.parse(localStorage.getItem('categories'));
-    console.log('categoires');
-    console.log(this.categories);
+    this.categories = JSON.parse(localStorage.getItem("categories"));
   },
+
   watch: {
     $route: function() {
       this.showBar = this.$route.path === "/" ? true : false;

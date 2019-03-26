@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"title": "Lesquerella arizonica S. Watson",
-			"img": "http://dummyimage.com/800x480.jpg/ff4444/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
 			"cat": "sem mauris laoreet",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 272,
@@ -93,7 +93,7 @@
 		{
 			"id": 2,
 			"title": "Achyronychia cooperi Torr. & A. Gray",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "mauris ullamcorper purus",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 177,
@@ -174,7 +174,7 @@
 		{
 			"id": 3,
 			"title": "Bouteloua trifida Thurb. var. trifida",
-			"img": "http://dummyimage.com/800x480.jpg/dddddd/000000",
+			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
 			"cat": "cubilia curae nulla",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 865,
@@ -219,7 +219,7 @@
 		{
 			"id": 4,
 			"title": "Usnea cirrosa Mot.",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "gravida nisi",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 447,
@@ -286,7 +286,7 @@
 		{
 			"id": 5,
 			"title": "Corydalis flavula (Raf.) DC.",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "lobortis vel",
 			"difficulty_lvl": 1,
 			"prep_time_in_min": 411,
@@ -348,7 +348,7 @@
 		{
 			"id": 6,
 			"title": "Erigeron filifolius (Hook.) Nutt.",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "faucibus orci",
 			"difficulty_lvl": 1,
 			"prep_time_in_min": 279,
@@ -421,7 +421,7 @@
 		{
 			"id": 7,
 			"title": "Comarostaphylis diversifolia (Parry) Greene",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "suspendisse",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 974,
@@ -485,7 +485,7 @@
 		{
 			"id": 8,
 			"title": "Hastingsia bracteosa S. Watson var. bracteosa",
-			"img": "http://dummyimage.com/800x480.jpg/ff4444/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
 			"cat": "ultrices phasellus id",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 183,
@@ -552,7 +552,7 @@
 		{
 			"id": 9,
 			"title": "Ptilagrostis kingii (Bol.) Barkworth",
-			"img": "http://dummyimage.com/800x480.jpg/dddddd/000000",
+			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
 			"cat": "ut",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 446,
@@ -614,7 +614,7 @@
 		{
 			"id": 10,
 			"title": "Oldenlandia L.",
-			"img": "http://dummyimage.com/800x480.jpg/ff4444/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
 			"cat": "amet lobortis",
 			"difficulty_lvl": 1,
 			"prep_time_in_min": 648,
@@ -673,7 +673,7 @@
 		{
 			"id": 11,
 			"title": "Salvia potus Epling",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "in",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 203,
@@ -710,7 +710,7 @@
 		{
 			"id": 12,
 			"title": "Withania Pauquy",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "mattis odio",
 			"difficulty_lvl": 3,
 			"prep_time_in_min": 268,
@@ -790,7 +790,7 @@
 		{
 			"id": 13,
 			"title": "Rorippa curvisiliqua (Hook.) Besser ex Britton var. curvisiliqua",
-			"img": "http://dummyimage.com/800x480.jpg/dddddd/000000",
+			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
 			"cat": "tortor",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 810,
@@ -845,7 +845,7 @@
 		{
 			"id": 14,
 			"title": "Erysimum capitatum (Douglas ex Hook.) Greene var. capitatum",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "at nibh in",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 770,
@@ -882,7 +882,7 @@
 		{
 			"id": 15,
 			"title": "Moehringia macrophylla (Hook.) Fenzl",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "a pede",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 666,
@@ -934,7 +934,7 @@
 		{
 			"id": 16,
 			"title": "Solidago simplex Kunth ssp. randii (Porter) Ringius var. gillmanii (A. Gray) Ringius",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "ante",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 247,
@@ -973,7 +973,7 @@
 		{
 			"id": 17,
 			"title": "Millettia Wight & Arn.",
-			"img": "http://dummyimage.com/800x480.jpg/dddddd/000000",
+			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
 			"cat": "at",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 734,
@@ -1026,7 +1026,7 @@
 		{
 			"id": 18,
 			"title": "Lessingia arachnoidea Greene",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "sollicitudin",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 496,
@@ -1098,7 +1098,7 @@
 		{
 			"id": 19,
 			"title": "Aethusa L.",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "amet",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 391,
@@ -1149,7 +1149,7 @@
 		{
 			"id": 20,
 			"title": "Porotrichum bigelovii (Sull.) Kindb.",
-			"img": "http://dummyimage.com/800x480.jpg/dddddd/000000",
+			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
 			"cat": "ut massa",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 198,
@@ -1186,7 +1186,7 @@
 		{
 			"id": 21,
 			"title": "Sisyrinchium campestre E.P. Bicknell",
-			"img": "http://dummyimage.com/800x480.jpg/dddddd/000000",
+			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
 			"cat": "mattis pulvinar nulla",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 259,
@@ -1255,7 +1255,7 @@
 		{
 			"id": 22,
 			"title": "Ceratophyllum echinatum A. Gray",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "nulla",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 786,
@@ -1322,7 +1322,7 @@
 		{
 			"id": 23,
 			"title": "Campanula piperi Howell",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "imperdiet sapien",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 392,
@@ -1382,7 +1382,7 @@
 		{
 			"id": 24,
 			"title": "Camassia cusickii S. Watson",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "nibh ligula",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 21,
@@ -1437,7 +1437,7 @@
 		{
 			"id": 25,
 			"title": "Spiranthes vernalis Engelm. & A. Gray",
-			"img": "http://dummyimage.com/800x480.jpg/ff4444/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
 			"cat": "faucibus orci luctus",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 333,
@@ -1475,7 +1475,7 @@
 		{
 			"id": 26,
 			"title": "Penstemon triflorus A. Heller ssp. triflorus",
-			"img": "http://dummyimage.com/800x480.jpg/5fa2dd/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
 			"cat": "sit amet nunc",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 417,
@@ -1556,7 +1556,7 @@
 		{
 			"id": 27,
 			"title": "Paxistima Raf.",
-			"img": "http://dummyimage.com/800x480.jpg/ff4444/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
 			"cat": "porttitor",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 276,
@@ -1600,7 +1600,7 @@
 		{
 			"id": 28,
 			"title": "Cyperus odoratus L.",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "adipiscing",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 247,
@@ -1653,7 +1653,7 @@
 		{
 			"id": 29,
 			"title": "Agoseris glauca (Pursh) Raf. var. agrestis (Osterh.) Q. Jones ex Cronquist",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "interdum mauris ullamcorper",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 950,
@@ -1740,7 +1740,7 @@
 		{
 			"id": 30,
 			"title": "Rhizocarpon microsporum Lynge",
-			"img": "http://dummyimage.com/800x480.jpg/cc0000/ffffff",
+			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
 			"cat": "fringilla rhoncus",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 318,

@@ -1,17 +1,18 @@
 <template>
-  <input
-    v-if="showBar"
-    type="text"
-    v-model="search"
-    @keyup="submitSearch"
+  
+  <input 
+    v-if="showBar" 
+    type="text" 
+    v-model="search" 
+    @keyup="submitSearch" 
     placeholder="search"
   >
+  
 </template>
 
 <script>
 import { bus } from "../main";
 export default {
-
   data() {
     return {
       search: "",
@@ -25,7 +26,7 @@ export default {
       bus.$emit("submitSearch", this.search);
     }
   },
-  
+
   watch: {
     $route: function() {
       this.showBar = this.$route.path === "/" ? true : false;

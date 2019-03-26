@@ -15,9 +15,11 @@ export default {
   data() {
     return {
       recipes: [],
-      categories: []
+      categories: [],
+      ingridients: []
     };
   },
+
   created() {
     RecipeService.getRecipes()
       .then(response => {
@@ -30,6 +32,21 @@ export default {
         });
         localStorage.setItem("categories", JSON.stringify(this.categories));
       })
+      .then(response => {        
+        let ingridientsArrays = this.recipes.map(element => {
+          return element.ingridients.map(el =>{
+            return el.ingridient.name;
+          })
+        });
+
+        ingridientsArrays.forEach(element => {
+            element.map(el =>{
+              this.ingridients.push(el);
+            })
+        });
+        
+        localStorage.setItem("ingridients", JSON.stringify(this.ingridients));
+      })
       .catch(error => {
         console.log("(RecipeService) There was an error:", error.response);
       });
@@ -37,13 +54,12 @@ export default {
 };
 </script>
 
-
 <style>
 /* http://meyerweb.com/eric/tools/css/reset/ 
     v2.0 | 20110126
     License: none (public domain)
   */
-
+  
 :root {
   --transiton-txt: 0.3s ease-in-out;
 }
@@ -206,7 +222,3 @@ body {
   margin-top: 7rem;
 }
 </style>
-
-
-
-

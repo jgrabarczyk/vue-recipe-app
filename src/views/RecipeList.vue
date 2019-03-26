@@ -2,7 +2,13 @@
   <div>
     <h1 class="main-title">Recipe Lists</h1>
     <div class="recipeBox__wrapper">
-      <RecipeBox v-for="recipe in filterRecipes" :key="recipe.id" :recipe="recipe"/>
+      
+      <RecipeBox 
+        v-for="recipe in filterRecipes" 
+        :key="recipe.id" 
+        :recipe="recipe"
+      />
+      
     </div>
   </div>
 </template>
@@ -19,7 +25,10 @@ export default {
     return {
       recipes: [],
       search: "",
-      selectedCat: ""
+      categories: "",
+      ingridents: [],
+      selectedCat: "",
+      selectedIngridients:[]
     };
   },
   methods: {
@@ -50,6 +59,7 @@ export default {
         return searchRegex.test(item.title);
       });
     }
+
   },
   created() {
     bus.$on("submitSearch", data => {
@@ -60,10 +70,11 @@ export default {
     });
   },
   mounted() {
-    this.recipes = JSON.parse(localStorage.getItem('recipes'));
+    this.recipes    = JSON.parse(localStorage.getItem('recipes'));
     this.categories = JSON.parse(localStorage.getItem('categories'));
+    this.ingridents = JSON.parse(localStorage.getItem('ingridients'));
   },
-  
+
   computed: {
     filterRecipes() {
       let category, filteredRecipes;
@@ -79,6 +90,12 @@ export default {
           ? filteredRecipes
           : filteredRecipes.filter(recipe => recipe.cat == category);
 
+      // filter with ingridients list
+      // find out how to filter check if array contain another arrays elements
+      // filteredRecipes =
+      //   this.ingridents == "" || this.ingridents !== undefined
+      //     ? filteredRecipes
+      //     : filteredRecipes.filter(recipe => recipe.ingridents == ); 
       return filteredRecipes;
     }
   }
