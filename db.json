@@ -3,19 +3,19 @@
 		{
 			"id": 1,
 			"title": "Lesquerella arizonica S. Watson",
-			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "sem mauris laoreet",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 272,
 			"ingridients": [
-				{ "ingridient": { "name": "Mountain Sneezeweed", "amount": 11 } },
-				{ "ingridient": { "name": "Calla Lily", "amount": 8 } },
-				{ "ingridient": { "name": "Sharp-tooth Buckthorn", "amount": 6 } },
-				{ "ingridient": { "name": "Mesa Dropseed", "amount": 6 } },
-				{ "ingridient": { "name": "Slender Sowthistle", "amount": 10 } },
-				{ "ingridient": { "name": "Princess-flower", "amount": 12 } },
-				{ "ingridient": { "name": "Goat Pea", "amount": 12 } },
-				{ "ingridient": { "name": "Pale Silverback Fern", "amount": 6 } }
+				 { "name": "Mountain Sneezeweed", "amount": 11 },
+				 { "name": "Calla Lily", "amount": 8 },
+				 { "name": "Sharp-tooth Buckthorn", "amount": 6 },
+				 { "name": "Mesa Dropseed", "amount": 6 },
+				 { "name": "Slender Sowthistle", "amount": 10 },
+				 { "name": "Princess-flower", "amount": 12 },
+				 { "name": "Goat Pea", "amount": 12 },
+				 { "name": "Pale Silverback Fern", "amount": 6 }
 			],
 			"prep_steps": [
 				{
@@ -93,17 +93,17 @@
 		{
 			"id": 2,
 			"title": "Achyronychia cooperi Torr. & A. Gray",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "mauris ullamcorper purus",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 177,
 			"ingridients": [
-				{ "ingridient": { "name": "Rose Glorybower", "amount": 8 } },
-				{ "ingridient": { "name": "Marshmallow", "amount": 10 } },
-				{ "ingridient": { "name": "Urban's Lineleaf Fern", "amount": 9 } },
-				{ "ingridient": { "name": "Brush Cherry", "amount": 12 } },
-				{ "ingridient": { "name": "False Indian Plantain", "amount": 5 } },
-				{ "ingridient": { "name": "Cirriphyllum Moss", "amount": 12 } }
+				 { "name": "Rose Glorybower", "amount": 8 },
+				 { "name": "Marshmallow", "amount": 10 },
+				 { "name": "Urban's Lineleaf Fern", "amount": 9 },
+				 { "name": "Brush Cherry", "amount": 12 },
+				 { "name": "False Indian Plantain", "amount": 5 },
+				 { "name": "Cirriphyllum Moss", "amount": 12 }
 			],
 			"prep_steps": [
 				{
@@ -174,16 +174,16 @@
 		{
 			"id": 3,
 			"title": "Bouteloua trifida Thurb. var. trifida",
-			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "cubilia curae nulla",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 865,
 			"ingridients": [
-				{ "ingridient": { "name": "Cracked Lichen", "amount": 8 } },
-				{ "ingridient": { "name": "Tetragastris", "amount": 6 } },
-				{ "ingridient": { "name": "Curveseed Butterwort", "amount": 7 } },
-				{ "ingridient": { "name": "Sassafras", "amount": 5 } },
-				{ "ingridient": { "name": "Princesstree", "amount": 5 } }
+				 { "name": "Cracked Lichen", "amount": 8 },
+				 { "name": "Tetragastris", "amount": 6 },
+				 { "name": "Curveseed Butterwort", "amount": 7 },
+				 { "name": "Sassafras", "amount": 5 },
+				 { "name": "Princesstree", "amount": 5}
 			],
 			"prep_steps": [
 				{
@@ -219,17 +219,17 @@
 		{
 			"id": 4,
 			"title": "Usnea cirrosa Mot.",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "gravida nisi",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 447,
 			"ingridients": [
-				{ "ingridient": { "name": "Parry's Rabbitbrush", "amount": 12 } },
-				{ "ingridient": { "name": "Carolina Wild Petunia", "amount": 8 } },
-				{ "ingridient": { "name": "Cinchona", "amount": 7 } },
-				{ "ingridient": { "name": "Greater Creeping Spearwort", "amount": 8 } },
-				{ "ingridient": { "name": "Northpark Phacelia", "amount": 12 } },
-				{ "ingridient": { "name": "Largefruit Blacksnakeroot", "amount": 7 } }
+				 { "name": "Parry's Rabbitbrush", "amount": 12 },
+				 { "name": "Carolina Wild Petunia", "amount": 8 },
+				 { "name": "Cinchona", "amount": 7 },
+				 { "name": "Greater Creeping Spearwort", "amount": 8 },
+				 { "name": "Northpark Phacelia", "amount": 12 },
+				 { "name": "Largefruit Blacksnakeroot", "amount": 7 }
 			],
 			"prep_steps": [
 				{
@@ -286,19 +286,19 @@
 		{
 			"id": 5,
 			"title": "Corydalis flavula (Raf.) DC.",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "lobortis vel",
 			"difficulty_lvl": 1,
 			"prep_time_in_min": 411,
 			"ingridients": [
-				{ "ingridient": { "name": "Neckera Moss", "amount": 11 } },
-				{ "ingridient": { "name": "Blue Leadwood", "amount": 5 } },
-				{ "ingridient": { "name": "Arumleaf Arrowhead", "amount": 10 } },
-				{ "ingridient": { "name": "Waihee Valley Peperomia", "amount": 5 } },
-				{ "ingridient": { "name": "Fish Slough Milkvetch", "amount": 12 } },
-				{ "ingridient": { "name": "Arkansas Dozedaisy", "amount": 5 } },
-				{ "ingridient": { "name": "Brook Crowngrass", "amount": 9 } },
-				{ "ingridient": { "name": "Black Elderberry", "amount": 5 } }
+				 { "name": "Neckera Moss", "amount": 11 },
+				 { "name": "Blue Leadwood", "amount": 5 },
+				 { "name": "Arumleaf Arrowhead", "amount": 10 },
+				 { "name": "Waihee Valley Peperomia", "amount": 5 },
+				 { "name": "Fish Slough Milkvetch", "amount": 12 },
+				 { "name": "Arkansas Dozedaisy", "amount": 5 },
+				 { "name": "Brook Crowngrass", "amount": 9 },
+				 { "name": "Black Elderberry", "amount": 5 }
 			],
 			"prep_steps": [
 				{
@@ -348,16 +348,16 @@
 		{
 			"id": 6,
 			"title": "Erigeron filifolius (Hook.) Nutt.",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "faucibus orci",
 			"difficulty_lvl": 1,
 			"prep_time_in_min": 279,
 			"ingridients": [
-				{ "ingridient": { "name": "Parmotrema Lichen", "amount": 8 } },
-				{ "ingridient": { "name": "Hawai'i Blue-eyed Grass", "amount": 12 } },
-				{ "ingridient": { "name": "Siskiyou Willowherb", "amount": 12 } },
-				{ "ingridient": { "name": "Flatleaf Bladderwort", "amount": 10 } },
-				{ "ingridient": { "name": "Peck's Sedge", "amount": 2 } }
+				 { "name": "Parmotrema Lichen", "amount": 8 },
+				 { "name": "Hawai'i Blue-eyed Grass", "amount": 12 },
+				 { "name": "Siskiyou Willowherb", "amount": 12 },
+				 { "name": "Flatleaf Bladderwort", "amount": 10 },
+				 { "name": "Peck's Sedge", "amount": 2 }
 			],
 			"prep_steps": [
 				{
@@ -421,21 +421,18 @@
 		{
 			"id": 7,
 			"title": "Comarostaphylis diversifolia (Parry) Greene",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "suspendisse",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 974,
 			"ingridients": [
-				{ "ingridient": { "name": "Waianae Range Starviolet", "amount": 3 } },
-				{ "ingridient": { "name": "Bejuco Prieto", "amount": 2 } },
-				{ "ingridient": { "name": "Citroncirus", "amount": 12 } },
-				{
-					"ingridient": { "name": "St. Jacob Texosporium Lichen", "amount": 11 }
-				},
-				{ "ingridient": { "name": "Mojave Spineflower", "amount": 11 } },
-				{ "ingridient": { "name": "Cutleaf Silverpuffs", "amount": 8 } },
-				{ "ingridient": { "name": "Sand Phacelia", "amount": 11 } },
-				{ "ingridient": { "name": "Avery Peak Twinpod", "amount": 4 } }
+				 { "name": "Waianae Range Starviolet", "amount": 3 },
+				 { "name": "Bejuco Prieto", "amount": 2 },
+				 { "name": "Citroncirus", "amount": 12 },				
+				 { "name": "Mojave Spineflower", "amount": 11 },
+				 { "name": "Cutleaf Silverpuffs", "amount": 8 },
+				 { "name": "Sand Phacelia", "amount": 11 },
+				 { "name": "Avery Peak Twinpod", "amount": 4 }
 			],
 			"prep_steps": [
 				{
@@ -485,17 +482,17 @@
 		{
 			"id": 8,
 			"title": "Hastingsia bracteosa S. Watson var. bracteosa",
-			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "ultrices phasellus id",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 183,
 			"ingridients": [
-				{ "ingridient": { "name": "Coast Range Cryptantha", "amount": 12 } },
-				{ "ingridient": { "name": "Evergreen Sumac", "amount": 8 } },
-				{ "ingridient": { "name": "Atlantic Goldenrod", "amount": 5 } },
-				{ "ingridient": { "name": "California Brodiaea", "amount": 11 } },
-				{ "ingridient": { "name": "Bluebead", "amount": 11 } },
-				{ "ingridient": { "name": "Feltleaf Bluestar", "amount": 4 } }
+				 { "name": "Coast Range Cryptantha", "amount": 12 },
+				 { "name": "Evergreen Sumac", "amount": 8 },
+				 { "name": "Atlantic Goldenrod", "amount": 5 },
+				 { "name": "California Brodiaea", "amount": 11 },
+				 { "name": "Bluebead", "amount": 11 },
+				 { "name": "Feltleaf Bluestar", "amount": 4 }
 			],
 			"prep_steps": [
 				{
@@ -552,19 +549,19 @@
 		{
 			"id": 9,
 			"title": "Ptilagrostis kingii (Bol.) Barkworth",
-			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "ut",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 446,
 			"ingridients": [
-				{ "ingridient": { "name": "Narrowleaf Rose Gentian", "amount": 11 } },
-				{ "ingridient": { "name": "Manzanilla Trepador", "amount": 2 } },
-				{ "ingridient": { "name": "Pumice Alpinegold", "amount": 4 } },
-				{ "ingridient": { "name": "Spreading Dewberry", "amount": 6 } },
-				{ "ingridient": { "name": "Largeflower Heartleaf", "amount": 2 } },
-				{ "ingridient": { "name": "Trachybryum Moss", "amount": 8 } },
-				{ "ingridient": { "name": "Moleplant", "amount": 12 } },
-				{ "ingridient": { "name": "Common Freesia", "amount": 5 } }
+				 { "name": "Narrowleaf Rose Gentian", "amount": 11 },
+				 { "name": "Manzanilla Trepador", "amount": 2 },
+				 { "name": "Pumice Alpinegold", "amount": 4 },
+				 { "name": "Spreading Dewberry", "amount": 6 },
+				 { "name": "Largeflower Heartleaf", "amount": 2 },
+				 { "name": "Trachybryum Moss", "amount": 8 },
+				 { "name": "Moleplant", "amount": 12 },
+				 { "name": "Common Freesia", "amount": 5 }
 			],
 			"prep_steps": [
 				{
@@ -614,16 +611,16 @@
 		{
 			"id": 10,
 			"title": "Oldenlandia L.",
-			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "amet lobortis",
 			"difficulty_lvl": 1,
 			"prep_time_in_min": 648,
 			"ingridients": [
-				{ "ingridient": { "name": "Cicercha Purpurina", "amount": 10 } },
-				{ "ingridient": { "name": "Dotted Lichen", "amount": 9 } },
-				{ "ingridient": { "name": "Rock Buckwheat", "amount": 2 } },
-				{ "ingridient": { "name": "Smooth Bedstraw", "amount": 2 } },
-				{ "ingridient": { "name": "Whitestem Goldenbush", "amount": 8 } }
+				 { "name": "Cicercha Purpurina", "amount": 10 },
+				 { "name": "Dotted Lichen", "amount": 9 },
+				 { "name": "Rock Buckwheat", "amount": 2 },
+				 { "name": "Smooth Bedstraw", "amount": 2 },
+				 { "name": "Whitestem Goldenbush", "amount": 8 }
 			],
 			"prep_steps": [
 				{
@@ -673,15 +670,15 @@
 		{
 			"id": 11,
 			"title": "Salvia potus Epling",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "in",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 203,
 			"ingridients": [
-				{ "ingridient": { "name": "White Panicle Aster", "amount": 9 } },
-				{ "ingridient": { "name": "Rim Lichen", "amount": 11 } },
-				{ "ingridient": { "name": "Jersey Knapweed", "amount": 12 } },
-				{ "ingridient": { "name": "Eastern Silver Aster", "amount": 4 } }
+				 { "name": "White Panicle Aster", "amount": 9 },
+				 { "name": "Rim Lichen", "amount": 11 },
+				 { "name": "Jersey Knapweed", "amount": 12 },
+				 { "name": "Eastern Silver Aster", "amount": 4 }
 			],
 			"prep_steps": [
 				{
@@ -710,16 +707,16 @@
 		{
 			"id": 12,
 			"title": "Withania Pauquy",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "mattis odio",
 			"difficulty_lvl": 3,
 			"prep_time_in_min": 268,
 			"ingridients": [
-				{ "ingridient": { "name": "American Water Horehound", "amount": 4 } },
-				{ "ingridient": { "name": "Eastern Fringed Catchfly", "amount": 8 } },
-				{ "ingridient": { "name": "Grisebach's Tribisee", "amount": 3 } },
-				{ "ingridient": { "name": "Spreading Sedge", "amount": 8 } },
-				{ "ingridient": { "name": "Sarcogyne Lichen", "amount": 4 } }
+				 { "name": "American Water Horehound", "amount": 4 },
+				 { "name": "Eastern Fringed Catchfly", "amount": 8 },
+				 { "name": "Grisebach's Tribisee", "amount": 3 },
+				 { "name": "Spreading Sedge", "amount": 8 },
+				 { "name": "Sarcogyne Lichen", "amount": 4 }
 			],
 			"prep_steps": [
 				{
@@ -790,19 +787,19 @@
 		{
 			"id": 13,
 			"title": "Rorippa curvisiliqua (Hook.) Besser ex Britton var. curvisiliqua",
-			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "tortor",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 810,
 			"ingridients": [
-				{ "ingridient": { "name": "Woodland Calamint", "amount": 2 } },
-				{ "ingridient": { "name": "Sudetic Lousewort", "amount": 9 } },
-				{ "ingridient": { "name": "Shaggy Fleabane", "amount": 9 } },
-				{ "ingridient": { "name": "Fiveangle Fimbry", "amount": 5 } },
-				{ "ingridient": { "name": "Arctic Catchfly", "amount": 11 } },
-				{ "ingridient": { "name": "Lacey Oak", "amount": 5 } },
-				{ "ingridient": { "name": "Venturiella Moss", "amount": 7 } },
-				{ "ingridient": { "name": "Felt Lichen", "amount": 6 } }
+				 { "name": "Woodland Calamint", "amount": 2 },
+				 { "name": "Sudetic Lousewort", "amount": 9 },
+				 { "name": "Shaggy Fleabane", "amount": 9 },
+				 { "name": "Fiveangle Fimbry", "amount": 5 },
+				 { "name": "Arctic Catchfly", "amount": 11 },
+				 { "name": "Lacey Oak", "amount": 5 },
+				 { "name": "Venturiella Moss", "amount": 7 },
+				 { "name": "Felt Lichen", "amount": 6 }
 			],
 			"prep_steps": [
 				{
@@ -845,15 +842,15 @@
 		{
 			"id": 14,
 			"title": "Erysimum capitatum (Douglas ex Hook.) Greene var. capitatum",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "at nibh in",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 770,
 			"ingridients": [
-				{ "ingridient": { "name": "Houston Tansyaster", "amount": 3 } },
-				{ "ingridient": { "name": "Racopilum Moss", "amount": 5 } },
-				{ "ingridient": { "name": "Apple Of Peru", "amount": 7 } },
-				{ "ingridient": { "name": "Snow Lichen", "amount": 6 } }
+				 { "name": "Snow Lichen", "amount": 3 },
+				 { "name": "Racopilum Moss", "amount": 5 },
+				 { "name": "Apple Of Peru", "amount": 7 },
+				 { "name": "Snow Lichen", "amount": 6 }
 			],
 			"prep_steps": [
 				{
@@ -882,16 +879,16 @@
 		{
 			"id": 15,
 			"title": "Moehringia macrophylla (Hook.) Fenzl",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "a pede",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 666,
 			"ingridients": [
-				{ "ingridient": { "name": "Hoary Plantain", "amount": 3 } },
-				{ "ingridient": { "name": "Winecup Clarkia", "amount": 11 } },
-				{ "ingridient": { "name": "Long-stolon Sedge", "amount": 6 } },
-				{ "ingridient": { "name": "Aspen Fleabane", "amount": 10 } },
-				{ "ingridient": { "name": "Hobdy's Woodfern", "amount": 10 } }
+				 { "name": "Hoary Plantain", "amount": 3 },
+				 { "name": "Winecup Clarkia", "amount": 11 },
+				 { "name": "Long-stolon Sedge", "amount": 6 },
+				 { "name": "Snow Lichen", "amount": 10 },
+				 { "name": "Hobdy's Woodfern", "amount": 10 }
 			],
 			"prep_steps": [
 				{
@@ -934,17 +931,14 @@
 		{
 			"id": 16,
 			"title": "Solidago simplex Kunth ssp. randii (Porter) Ringius var. gillmanii (A. Gray) Ringius",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "ante",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 247,
 			"ingridients": [
-				{ "ingridient": { "name": "Crow Orchid", "amount": 6 } },
-				{ "ingridient": { "name": "Pimpernel Willowherb", "amount": 11 } },
-				{ "ingridient": { "name": "'ohi'a Lehua", "amount": 9 } },
-				{
-					"ingridient": { "name": "Shockley's Evening Primrose", "amount": 11 }
-				}
+				 { "name": "Crow Orchid", "amount": 6 },
+				 { "name": "Snow Lichen", "amount": 11 },
+				 { "name": "'ohi'a Lehua", "amount": 9 }
 			],
 			"prep_steps": [
 				{
@@ -973,17 +967,17 @@
 		{
 			"id": 17,
 			"title": "Millettia Wight & Arn.",
-			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "at",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 734,
 			"ingridients": [
-				{ "ingridient": { "name": "Narrowleaf Cattail", "amount": 9 } },
-				{ "ingridient": { "name": "Rushleaf Eryngo", "amount": 4 } },
-				{ "ingridient": { "name": "Long Valley Tumblemustard", "amount": 12 } },
-				{ "ingridient": { "name": "Southern Suncup", "amount": 5 } },
-				{ "ingridient": { "name": "Iron River Dewberry", "amount": 4 } },
-				{ "ingridient": { "name": "Gray Gum", "amount": 4 } }
+				 { "name": "Narrowleaf Cattail", "amount": 9 },
+				 { "name": "Rushleaf Eryngo", "amount": 4 },
+				 { "name": "Long Valley Tumblemustard", "amount": 12 },
+				 { "name": "Southern Suncup", "amount": 5 },
+				 { "name": "Iron River Dewberry", "amount": 4 },
+				 { "name": "Gray Gum", "amount": 4 }
 			],
 			"prep_steps": [
 				{
@@ -1026,15 +1020,15 @@
 		{
 			"id": 18,
 			"title": "Lessingia arachnoidea Greene",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "sollicitudin",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 496,
 			"ingridients": [
-				{ "ingridient": { "name": "Louisiana Vetch", "amount": 11 } },
-				{ "ingridient": { "name": "Orange Lichen", "amount": 3 } },
-				{ "ingridient": { "name": "Low False Bindweed", "amount": 9 } },
-				{ "ingridient": { "name": "Lathrocasis", "amount": 8 } }
+				 { "name": "Louisiana Vetch", "amount": 11 },
+				 { "name": "Orange Lichen", "amount": 3 },
+				 { "name": "Low False Bindweed", "amount": 9 },
+				 { "name": "Lathrocasis", "amount": 8 }
 			],
 			"prep_steps": [
 				{
@@ -1098,22 +1092,16 @@
 		{
 			"id": 19,
 			"title": "Aethusa L.",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "amet",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 391,
 			"ingridients": [
-				{ "ingridient": { "name": "Iris", "amount": 9 } },
-				{ "ingridient": { "name": "Pohe Hiwa", "amount": 10 } },
-				{ "ingridient": { "name": "Coral Vine", "amount": 10 } },
-				{ "ingridient": { "name": "Bolander's Yampah", "amount": 7 } },
-				{
-					"ingridient": { "name": "Appalachian Shoestring Fern", "amount": 10 }
-				},
-				{ "ingridient": { "name": "Hairy Pagoda-plant", "amount": 11 } },
-				{
-					"ingridient": { "name": "Nightblooming False Bindweed", "amount": 9 }
-				}
+				 { "name": "Iris", "amount": 9 },
+				 { "name": "Pohe Hiwa", "amount": 10 },
+				 { "name": "Coral Vine", "amount": 10 },
+				 { "name": "Bolander's Yampah", "amount": 7 },				
+				 { "name": "Hairy Pagoda-plant", "amount": 11 }				
 			],
 			"prep_steps": [
 				{
@@ -1149,15 +1137,15 @@
 		{
 			"id": 20,
 			"title": "Porotrichum bigelovii (Sull.) Kindb.",
-			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "ut massa",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 198,
 			"ingridients": [
-				{ "ingridient": { "name": "Water-gum", "amount": 8 } },
-				{ "ingridient": { "name": "Lyngbye's Sedge", "amount": 6 } },
-				{ "ingridient": { "name": "Dotted Lancepod", "amount": 11 } },
-				{ "ingridient": { "name": "Oregon Stonecrop", "amount": 7 } }
+				 { "name": "Water-gum", "amount": 8 },
+				 { "name": "Lyngbye's Sedge", "amount": 6 },
+				 { "name": "Dotted Lancepod", "amount": 11 },
+				 { "name": "Oregon Stonecrop", "amount": 7 }
 			],
 			"prep_steps": [
 				{
@@ -1186,19 +1174,19 @@
 		{
 			"id": 21,
 			"title": "Sisyrinchium campestre E.P. Bicknell",
-			"img": "http://dummyimage.com/1280x768.jpg/dddddd/000000",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "mattis pulvinar nulla",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 259,
 			"ingridients": [
-				{ "ingridient": { "name": "Sky Mousetail", "amount": 9 } },
-				{ "ingridient": { "name": "Wax Currant", "amount": 11 } },
-				{ "ingridient": { "name": "Blue Ridge Bittercress", "amount": 3 } },
-				{ "ingridient": { "name": "Creta Trefoil", "amount": 6 } },
-				{ "ingridient": { "name": "Rattan's Monkeyflower", "amount": 12 } },
-				{ "ingridient": { "name": "Palespike Lobelia", "amount": 4 } },
-				{ "ingridient": { "name": "Burgess' Skin Lichen", "amount": 2 } },
-				{ "ingridient": { "name": "Spreading Sneezeweed", "amount": 3 } }
+				 { "name": "Sky Mousetail", "amount": 9 },
+				 { "name": "Wax Currant", "amount": 11 },
+				 { "name": "Blue Ridge Bittercress", "amount": 3 },
+				 { "name": "Creta Trefoil", "amount": 6 },
+				 { "name": "Rattan's Monkeyflower", "amount": 12 },
+				 { "name": "Palespike Lobelia", "amount": 4 },
+				 { "name": "Burgess' Skin Lichen", "amount": 2 },
+				 { "name": "Spreading Sneezeweed", "amount": 3 }
 			],
 			"prep_steps": [
 				{
@@ -1255,17 +1243,17 @@
 		{
 			"id": 22,
 			"title": "Ceratophyllum echinatum A. Gray",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "nulla",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 786,
 			"ingridients": [
-				{ "ingridient": { "name": "Small-leaved Rockdaisy", "amount": 2 } },
-				{ "ingridient": { "name": "Brewer's Bittercress", "amount": 7 } },
-				{ "ingridient": { "name": "Yerba Porosa", "amount": 9 } },
-				{ "ingridient": { "name": "Oregon Orange Lichen", "amount": 6 } },
-				{ "ingridient": { "name": "Nuttall's Thistle", "amount": 5 } },
-				{ "ingridient": { "name": "Mexican Bonebract", "amount": 11 } }
+				 { "name": "Small-leaved Rockdaisy", "amount": 2 },
+				 { "name": "Brewer's Bittercress", "amount": 7 },
+				 { "name": "Yerba Porosa", "amount": 9 },
+				 { "name": "Oregon Orange Lichen", "amount": 6 },
+				 { "name": "Nuttall's Thistle", "amount": 5 },
+				 { "name": "Mexican Bonebract", "amount": 11 }
 			],
 			"prep_steps": [
 				{
@@ -1322,17 +1310,17 @@
 		{
 			"id": 23,
 			"title": "Campanula piperi Howell",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "imperdiet sapien",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 392,
 			"ingridients": [
-				{ "ingridient": { "name": "Trumpet Gooseberry", "amount": 12 } },
-				{ "ingridient": { "name": "Shield Lichen", "amount": 8 } },
-				{ "ingridient": { "name": "Southern Gilia", "amount": 4 } },
-				{ "ingridient": { "name": "Cattail Grass", "amount": 3 } },
-				{ "ingridient": { "name": "Virginia Sweetspire", "amount": 10 } },
-				{ "ingridient": { "name": "South Texas Prairie Clover", "amount": 8 } }
+				 { "name": "Trumpet Gooseberry", "amount": 12 },
+				 { "name": "Shield Lichen", "amount": 8 },
+				 { "name": "Southern Gilia", "amount": 4 },
+				 { "name": "Cattail Grass", "amount": 3 },
+				 { "name": "Virginia Sweetspire", "amount": 10 },
+				 { "name": "South Texas Prairie Clover", "amount": 8 }
 			],
 			"prep_steps": [
 				{
@@ -1382,19 +1370,19 @@
 		{
 			"id": 24,
 			"title": "Camassia cusickii S. Watson",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "nibh ligula",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 21,
 			"ingridients": [
-				{ "ingridient": { "name": "Edible Thistle", "amount": 12 } },
-				{ "ingridient": { "name": "Chinese Lovegrass", "amount": 11 } },
-				{ "ingridient": { "name": "Twolobe Clarkia", "amount": 11 } },
-				{ "ingridient": { "name": "Dense Blazing Star", "amount": 9 } },
-				{ "ingridient": { "name": "Weeping Gum", "amount": 11 } },
-				{ "ingridient": { "name": "Slippery Elm", "amount": 7 } },
-				{ "ingridient": { "name": "Mt. Eke Pritchardia", "amount": 4 } },
-				{ "ingridient": { "name": "Pursh's Wallflower", "amount": 6 } }
+				 { "name": "Edible Thistle", "amount": 12 },
+				 { "name": "Chinese Lovegrass", "amount": 11 },
+				 { "name": "Twolobe Clarkia", "amount": 11 },
+				 { "name": "Dense Blazing Star", "amount": 9 },
+				 { "name": "Weeping Gum", "amount": 11 },
+				 { "name": "Slippery Elm", "amount": 7 },
+				 { "name": "Mt. Eke Pritchardia", "amount": 4 },
+				 { "name": "Pursh's Wallflower", "amount": 6 }
 			],
 			"prep_steps": [
 				{
@@ -1437,16 +1425,16 @@
 		{
 			"id": 25,
 			"title": "Spiranthes vernalis Engelm. & A. Gray",
-			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "faucibus orci luctus",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 333,
 			"ingridients": [
-				{ "ingridient": { "name": "Gisekia", "amount": 5 } },
-				{ "ingridient": { "name": "Sierra Lessingia", "amount": 8 } },
-				{ "ingridient": { "name": "Oregon Western Rosinweed", "amount": 9 } },
-				{ "ingridient": { "name": "Largeleaf Rosemallow", "amount": 6 } },
-				{ "ingridient": { "name": "Deam's Coneflower", "amount": 7 } }
+				 { "name": "Gisekia", "amount": 5 },
+				 { "name": "Sierra Lessingia", "amount": 8 },
+				 { "name": "Oregon Western Rosinweed", "amount": 9 },
+				 { "name": "Largeleaf Rosemallow", "amount": 6 },
+				 { "name": "Deam's Coneflower", "amount": 7 }
 			],
 			"prep_steps": [
 				{
@@ -1475,17 +1463,17 @@
 		{
 			"id": 26,
 			"title": "Penstemon triflorus A. Heller ssp. triflorus",
-			"img": "http://dummyimage.com/1280x768.jpg/5fa2dd/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "sit amet nunc",
 			"difficulty_lvl": 4,
 			"prep_time_in_min": 417,
 			"ingridients": [
-				{ "ingridient": { "name": "Longstalk Holly", "amount": 12 } },
-				{ "ingridient": { "name": "Lake Tahoe Serpentweed", "amount": 8 } },
-				{ "ingridient": { "name": "Rothrock's Hedgenettle", "amount": 5 } },
-				{ "ingridient": { "name": "Armenian Poppy", "amount": 10 } },
-				{ "ingridient": { "name": "Western Soapberry", "amount": 8 } },
-				{ "ingridient": { "name": "Ash Meadows Milkvetch", "amount": 6 } }
+				 { "name": "Longstalk Holly", "amount": 12 },
+				 { "name": "Lake Tahoe Serpentweed", "amount": 8 },
+				 { "name": "Rothrock's Hedgenettle", "amount": 5 },
+				 { "name": "Armenian Poppy", "amount": 10 },
+				 { "name": "Western Soapberry", "amount": 8 },
+				 { "name": "Ash Meadows Milkvetch", "amount": 6 }
 			],
 			"prep_steps": [
 				{
@@ -1556,15 +1544,15 @@
 		{
 			"id": 27,
 			"title": "Paxistima Raf.",
-			"img": "http://dummyimage.com/1280x768.jpg/ff4444/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "porttitor",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 276,
 			"ingridients": [
-				{ "ingridient": { "name": "Broom Sedge", "amount": 12 } },
-				{ "ingridient": { "name": "Idaho Trillium", "amount": 3 } },
-				{ "ingridient": { "name": "Limestone Goldenrod", "amount": 7 } },
-				{ "ingridient": { "name": "Scarlet Hedgehog Cactus", "amount": 3 } }
+				 { "name": "Broom Sedge", "amount": 12 },
+				 { "name": "Idaho Trillium", "amount": 3 },
+				 { "name": "Limestone Goldenrod", "amount": 7 },
+				 { "name": "Scarlet Hedgehog Cactus", "amount": 3 }
 			],
 			"prep_steps": [
 				{
@@ -1600,17 +1588,17 @@
 		{
 			"id": 28,
 			"title": "Cyperus odoratus L.",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "adipiscing",
 			"difficulty_lvl": 6,
 			"prep_time_in_min": 247,
 			"ingridients": [
-				{ "ingridient": { "name": "Schaerer's Orange Lichen", "amount": 7 } },
-				{ "ingridient": { "name": "Treelover", "amount": 9 } },
-				{ "ingridient": { "name": "Parry's Holdback", "amount": 2 } },
-				{ "ingridient": { "name": "Mexican Homomallium Moss", "amount": 12 } },
-				{ "ingridient": { "name": "Larkdaisy", "amount": 9 } },
-				{ "ingridient": { "name": "Tridax", "amount": 6 } }
+				 { "name": "Schaerer's Orange Lichen", "amount": 7 },
+				 { "name": "Treelover", "amount": 9 },
+				 { "name": "Parry's Holdback", "amount": 2 },
+				 { "name": "Mexican Homomallium Moss", "amount": 12 },
+				 { "name": "Larkdaisy", "amount": 9 },
+				 { "name": "Tridax", "amount": 6 }
 			],
 			"prep_steps": [
 				{
@@ -1653,16 +1641,16 @@
 		{
 			"id": 29,
 			"title": "Agoseris glauca (Pursh) Raf. var. agrestis (Osterh.) Q. Jones ex Cronquist",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "interdum mauris ullamcorper",
 			"difficulty_lvl": 2,
 			"prep_time_in_min": 950,
 			"ingridients": [
-				{ "ingridient": { "name": "Esparto", "amount": 12 } },
-				{ "ingridient": { "name": "Slender Cottongrass", "amount": 10 } },
-				{ "ingridient": { "name": "Alpine Mirrorplant", "amount": 10 } },
-				{ "ingridient": { "name": "Frogbit Buttercup", "amount": 8 } },
-				{ "ingridient": { "name": "Winged Cryptantha", "amount": 12 } }
+				 { "name": "Esparto", "amount": 12 },
+				 { "name": "Slender Cottongrass", "amount": 10 },
+				 { "name": "Alpine Mirrorplant", "amount": 10 },
+				 { "name": "Frogbit Buttercup", "amount": 8 },
+				 { "name": "Winged Cryptantha", "amount": 12 }
 			],
 			"prep_steps": [
 				{
@@ -1740,23 +1728,16 @@
 		{
 			"id": 30,
 			"title": "Rhizocarpon microsporum Lynge",
-			"img": "http://dummyimage.com/1280x768.jpg/cc0000/ffffff",
+			"img": "http://via.placeholder.com/1280x768",
 			"cat": "fringilla rhoncus",
 			"difficulty_lvl": 5,
 			"prep_time_in_min": 318,
 			"ingridients": [
-				{ "ingridient": { "name": "Longleaf False Goldeneye", "amount": 5 } },
-				{ "ingridient": { "name": "Gumbo Milkvetch", "amount": 10 } },
-				{ "ingridient": { "name": "Sandalwood", "amount": 4 } },
-				{ "ingridient": { "name": "Littleleaf Stenogyne", "amount": 9 } },
-				{ "ingridient": { "name": "Shrubland Beggarticks", "amount": 2 } },
-				{
-					"ingridient": {
-						"name": "Smooth Spreading Four O'clock",
-						"amount": 12
-					}
-				},
-				{ "ingridient": { "name": "Annona", "amount": 10 } }
+				 { "name": "Longleaf False Goldeneye", "amount": 5 },
+				 { "name": "Gumbo Milkvetch", "amount": 10 },
+				 { "name": "Sandalwood", "amount": 4 },
+				 { "name": "Littleleaf Stenogyne", "amount": 9 },
+				 { "name": "Shrubland Beggarticks", "amount": 2 }
 			],
 			"prep_steps": [
 				{
