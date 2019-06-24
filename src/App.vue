@@ -40,8 +40,12 @@ export default {
             this.ingridients.push(el);
           });
         });
+        let uniqIngridients = this.ingridients.reduce(function(a,b){
+          if (a.indexOf(b) < 0 ) a.push(b);
+          return a;
+        },[]);
 
-        localStorage.setItem("ingridients", JSON.stringify(this.ingridients));
+        localStorage.setItem("ingridients", JSON.stringify(uniqIngridients.sort()));
       })
       .catch(error => {
         console.log("(RecipeService) There was an error:", error.response);

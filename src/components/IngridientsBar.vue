@@ -1,6 +1,6 @@
 <template>
   <div>
-    <select multiple v-if="showBar" v-model="selected" v-on:change="submitIngridients">
+    <select multiple v-if="showBar" v-model="selectedIngridients" v-on:change="submitIngridients">
       <option></option>
       <option v-for="(ingridient, index) in ingridients" :key="index">{{ingridient}}</option>
     </select>
@@ -14,15 +14,15 @@ export default {
   data() {
     return {
       ingridients: [],
-      selected: [],
+      selectedIngridients: [],
       showBar: true
     };
   },
 
   methods: {
     submitIngridients() {
-      console.log(this.selected);
-      bus.$emit("submitIngridients", this.selected);
+      console.log(this.selectedIngridients);
+      bus.$emit("submitIngridients", this.selectedIngridients);
     }
   },
 

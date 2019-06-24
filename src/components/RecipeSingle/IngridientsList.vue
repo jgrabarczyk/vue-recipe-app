@@ -3,8 +3,8 @@
     <h2 class="rs__content--title">Ingridients:</h2>
     <ul class="rs__list ingridients">
       <li class="rs__list--item"  v-for="(single, index) in ingridients" v-bind:key="index">
-        {{single.ingridient.name}}
-        <span>,{{single.ingridient.amount}} times</span>
+        {{single.name}}
+        <span>,{{single.amount}} times</span>
       </li>
     </ul>
   </div>
