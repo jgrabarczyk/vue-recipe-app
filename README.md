@@ -1,10 +1,10 @@
-# Simple SPA for recipes 
+# Simple SPA
 
 ## Filter recipes on the fly (-)
 - By category
 - By name
 - By ingridients
- 
+
 ## json mock server setup
 ```
 json-server --watch .\db.json
