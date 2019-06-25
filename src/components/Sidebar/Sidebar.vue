@@ -41,8 +41,16 @@ export default {
       this.isActive = !this.isActive;
     },
 
-    documentClick(e) {      
-      console.log(e.target);
+    onkey(e){
+      if(e.key == "Escape" && this.isActive ){
+        this.isActive = false;
+      }
+      if(e.key == "f" && !this.isActive ){
+        this.isActive = true;
+      }
+    },
+    
+    documentClick(e) {        
       if (!document.getElementById("sidebar").contains(e.target)) {
         this.isActive = false;
       }
@@ -50,13 +58,14 @@ export default {
   },
   created() {
     document.addEventListener("click", this.documentClick);
-
+    document.addEventListener('keyup', this.onkey)
     bus.$on("handleScroll", data => {
       this.isScrolledTop = data;
     });
   },
   destroyed() {
     document.removeEventListener("click", this.documentClick);
+    document.removeEventListener("keyup", this.onkey);
   }
 };
 </script>
@@ -68,7 +77,7 @@ export default {
   top: 48px;
   bottom: 0;
   left: 0px;
-  width: 33%;
+  
   z-index: 3;
   transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1),
     top 0.5s ease-in-out;
@@ -77,9 +86,9 @@ export default {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  /* align-content: center; */
   padding: 1rem;
-
+  min-width: 300px;
+  width: 300px;
 }
 
 .sidebar.active {

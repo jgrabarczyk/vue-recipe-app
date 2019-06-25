@@ -20,16 +20,10 @@ export default {
 
 <style>
 .recipeBox {
-  --margin-size: 15px;
-  --border-width: 0px;
-  --item-per-row: 2;
-  flex: 0 0
-    calc(
-      100% / var(--item-per-row) - 2 *
-        (var(--margin-size) + var(--border-width))
-    );
-  margin: var(--margin-size);
+  flex: 0 1 1;
   position: relative;
+  --margin-size: 15px;
+  margin: var(--margin-size);
 }
 .recipeBox__caption {
   /* position: absolute; */
@@ -48,5 +42,21 @@ export default {
 
 .recipeBox__img {
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .recipeBox {
+    --border-width: 0px;
+    --item-per-row: 2;
+    flex: 0 0
+      calc(
+        100% / var(--item-per-row) - 2 *
+          (var(--margin-size) + var(--border-width))
+      );
+  }
+}
+@media( min-width: 991px){
+  .recipeBox {
+    --item-per-row: 3;
+  }
 }
 </style>
