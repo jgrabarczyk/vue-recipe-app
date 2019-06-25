@@ -2,11 +2,13 @@
 <style src="./main.css"></style>
 <script>
 import NavBar from "@/components/NavBar/NavBar.vue";
+import Sidebar from "@/components/Sidebar/Sidebar.vue";
 import RecipeService from "@/services/RecipeService.js";
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    Sidebar
   },
   data() {
     return {

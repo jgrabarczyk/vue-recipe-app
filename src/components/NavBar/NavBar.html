@@ -5,9 +5,7 @@
   v-on:scroll="handleScroll"
 >
   <router-link to="/" class="brand">{{title}}</router-link>
-  <searchBar/>
-  <categoryBar/>
-  <ingridientsBar/>
+ 
   <nav>
     <router-link :to="{ name: 'recipe-list' }">Home</router-link>
     <router-link :to="{ name: 'about' }">About</router-link>

@@ -1,7 +1,8 @@
 <template>
   <div>
-    <select multiple v-if="showBar" v-model="selectedIngridients" v-on:change="submitIngridients">
-      <option></option>
+    <label for="ingridients">Pick ingridients</label>
+    <select multiple v-if="showBar" v-model="selectedIngridients" v-on:change="submitIngridients" name="ingridients">
+      <option>Default</option>
       <option v-for="(ingridient, index) in ingridients" :key="index">{{ingridient}}</option>
     </select>
   </div>

@@ -81,11 +81,11 @@ export default {
           : this.filterList(this.search, this.recipes);
 
       filteredRecipes =
-        this.selectedCat == ""
+        this.selectedCat == "" || this.selectedCat =="All"
           ? filteredRecipes
           : filteredRecipes.filter(recipe => recipe.cat == category);
 
-      if (this.selectedIngridients.length == 0) {
+      if (this.selectedIngridients.length == 0 || this.selectedIngridients == "Default" ) {
         return filteredRecipes;
       }      
 

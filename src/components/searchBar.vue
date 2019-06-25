@@ -1,13 +1,15 @@
 <template>
-  
-  <input 
-    v-if="showBar" 
-    type="text" 
-    v-model="search" 
-    @keyup="submitSearch" 
-    placeholder="search"
-  >
-  
+  <div>
+    <label for="search">Search by ttitle:</label>
+    <input
+      v-if="showBar"
+      type="text"
+      v-model="search"
+      @keyup="submitSearch"
+      placeholder="search"
+      name="search"
+    >
+  </div>
 </template>
 
 <script>

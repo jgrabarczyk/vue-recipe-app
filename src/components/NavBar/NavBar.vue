@@ -2,6 +2,8 @@
 <style scoped src="./NavBar.css"></style>
 
 <script>
+import { bus } from "../../main";
+
 import searchBar from "@/components/searchBar.vue";
 import categoryBar from '@/components/CategoryBar.vue';
 import ingridientsBar from '@/components/IngridientsBar.vue';
@@ -16,13 +18,14 @@ export default {
   data() {
     return {
       title: "Recipe App",
-      isScrolledTop: false
+      isScrolledTop: true
     };
   },
 
   methods: {
-    handleScroll(event) {
+    handleScroll(event) {      
       this.isScrolledTop = window.scrollY == 0 ? true : false;
+      bus.$emit("handleScroll", this.isScrolledTop);
     }
   },
   created() {

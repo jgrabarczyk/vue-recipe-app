@@ -1,7 +1,8 @@
 <template>
   <div>
-    <select v-if="showBar" v-model="selectedCat" v-on:change="submtiCategories">
-      <option></option>
+    <label for="category">Choose category</label>
+    <select v-if="showBar" v-model="selectedCat" v-on:change="submtiCategories" name="category">
+      <option>All</option>
       <option v-for="(cat, index) in categories" :key="index">{{cat}}</option>
     </select>
   </div>
@@ -36,3 +37,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+select{
+  padding: 10px;
+}
+</style>
