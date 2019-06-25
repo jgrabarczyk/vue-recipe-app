@@ -1,4 +1,14 @@
-# recipes
+# Simple SPA for recipes 
+
+## Filter recipes on the fly (-)
+- By category
+- By name
+- By ingridients
+ 
+## json mock server setup
+```
+json-server --watch .\db.json
+```
 
 ## Project setup
 ```
@@ -27,3 +37,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
