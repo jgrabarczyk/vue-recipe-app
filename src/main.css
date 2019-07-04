@@ -164,3 +164,11 @@ a:hover {
 body {
 	margin-top: 7rem;
 }
+input,select{
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+}
+select option{
+  padding: 3px 0;
+}

@@ -10,9 +10,10 @@
       v-bind:class="{ active: isActive }"
     >Filter</div>
 
-    <searchBar/>
-    <categoryBar/>
-    <ingridientsBar/>
+    <searchBar class="filter" />
+    <categoryBar class="filter" />
+    <ingridientsBar class="filter" />
+    <div class="reset btn" @click="resetFilters">Reset filters X</div>
   </div>
 </template>
 
@@ -32,7 +33,14 @@ export default {
   data() {
     return {
       isActive: false,
-      isScrolledTop: true
+      isScrolledTop: true,
+      //
+      recipes: [],
+      search: "",
+      categories: "",
+      ingridents: [],
+      selectedCat: "",
+      selectedIngridients: []
     };
   },
 
@@ -41,32 +49,119 @@ export default {
       this.isActive = !this.isActive;
     },
 
-    onkey(e){
-      if(e.key == "Escape" && this.isActive ){
+    onkey(e) {
+      if (e.key == "Escape" && this.isActive) {
         this.isActive = false;
       }
-      if(e.key == "f" && !this.isActive ){
+      if (e.key == "f" && !this.isActive) {
         this.isActive = true;
       }
     },
-    
-    documentClick(e) {        
+
+    documentClick(e) {
       if (!document.getElementById("sidebar").contains(e.target)) {
         this.isActive = false;
       }
+    },
+
+    filterList(q, list) {
+      function escapeRegExp(s) {
+        return s.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
+      }
+      const words = q
+        .split(/\s+/g)
+        .map(s => s.trim())
+        .filter(s => !!s);
+      const hasTrailingSpace = q.endsWith(" ");
+      const searchRegex = new RegExp(
+        words
+          .map((word, i) => {
+            if (i + 1 === words.length && !hasTrailingSpace) {
+              // The last word - ok with the word being "startswith"-like
+              return `(?=.*\\b${escapeRegExp(word)})`;
+            } else {
+              // Not the last word - expect the whole word exactly
+              return `(?=.*\\b${escapeRegExp(word)}\\b)`;
+            }
+          })
+          .join("") + ".+",
+        "gi"
+      );
+      return list.filter(item => {
+        return searchRegex.test(item.title);
+      });
+    },
+    filterRecipes() {
+      let category, filteredRecipes;
+      category = this.selectedCat;
+
+      filteredRecipes =
+        this.search == ""
+          ? this.recipes
+          : this.filterList(this.search, this.recipes);
+
+      filteredRecipes =
+        this.selectedCat == "" || this.selectedCat == "All"
+          ? filteredRecipes
+          : filteredRecipes.filter(recipe => recipe.cat == category);
+
+      if (
+        this.selectedIngridients.length == 0 ||
+        this.selectedIngridients == "Default"
+      ) {
+        return filteredRecipes;
+      }
+
+      filteredRecipes = filteredRecipes.filter(recipe => {
+        if (
+          recipe.ingridients
+            .map(el => el.name)
+            .some(r => this.selectedIngridients.includes(r))
+        ) {
+          return recipe;
+        }
+      });
+
+      return filteredRecipes;
+    },
+
+    updateFilters() {
+      bus.$emit("filters", this.filterRecipes());
+    },
+    resetFilters() {
+      bus.$emit("filters", this.recipes);
     }
   },
   created() {
     document.addEventListener("click", this.documentClick);
-    document.addEventListener('keyup', this.onkey)
+    document.addEventListener("keyup", this.onkey);
     bus.$on("handleScroll", data => {
       this.isScrolledTop = data;
     });
+
+    bus.$on("submitSearch", data => {
+      this.search = data;
+      this.updateFilters();
+    });
+    bus.$on("submitCategories", data => {
+      this.selectedCat = data;
+      this.updateFilters();
+    });
+    bus.$on("submitIngridients", data => {
+      this.selectedIngridients = data;
+      this.updateFilters();
+    });
+  },
+  mounted() {
+    this.recipes = JSON.parse(localStorage.getItem("recipes"));
+    this.categories = JSON.parse(localStorage.getItem("categories"));
+    this.ingridents = JSON.parse(localStorage.getItem("ingridients"));
+    bus.$emit("filters", this.recipes);
   },
   destroyed() {
     document.removeEventListener("click", this.documentClick);
     document.removeEventListener("keyup", this.onkey);
-  }
+  }  
 };
 </script>
 
@@ -77,7 +172,7 @@ export default {
   top: 48px;
   bottom: 0;
   left: 0px;
-  
+
   z-index: 3;
   transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1),
     top 0.5s ease-in-out;
@@ -85,12 +180,14 @@ export default {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding: 1rem;
   min-width: 300px;
   width: 300px;
 }
-
+.sidebar .filter {
+  margin-bottom: 2rem;
+}
 .sidebar.active {
   transform: translateX(0);
 }
